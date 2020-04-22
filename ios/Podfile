@@ -79,6 +79,8 @@ target 'food_point' do
 
   pod 'react-native-geolocation', :path => '../node_modules/@react-native-community/geolocation'
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'food_pointTests' do
     inherit! :complete
     # Pods for testing

@@ -16,7 +16,7 @@ import {
 } from 'react-native';
 import React, { Component } from 'react';
 import MapView from './src/screen/MapView'
-
+import FlogtingButton  from './src/screen/Flotingbutton'
 
 export default class App extends Component {
   constructor(){
@@ -30,7 +30,7 @@ export default class App extends Component {
   render() {
     return (
       // <View style={styles.container}>
-          <MapView/>
+          <FlogtingButton/>
       // </View>
     )
   }

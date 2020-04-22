@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet, Dimensions } from 'react-native';
 import MapView, {PROVIDER_GOOGLE } from 'react-native-maps';
 import Geolocation from '@react-native-community/geolocation';
+import ActionButton from 'react-native-action-button';
 
 const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
@@ -58,7 +59,7 @@ const styles = StyleSheet.create({
   map: {
     width: width,
     height: height,
-    zIndex: 998
+    zIndex: -1
   },
   radius: {
     height: 50,
@@ -86,7 +87,7 @@ const styles = StyleSheet.create({
     height: 20,
     top: 10,
     left: 10,
-    zIndex: 999
+    zIndex: 10
   },
   actionButtonIcon: {
     fontSize: 20,
