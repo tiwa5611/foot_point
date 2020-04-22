@@ -17,7 +17,7 @@ import {
 import React, { Component } from 'react';
 import MapView from './src/screen/MapView'
 import FlogtingButton  from './src/screen/Flotingbutton'
-
+import Modal from './src/screen/Modals'
 export default class App extends Component {
   constructor(){
       super();
@@ -30,7 +30,7 @@ export default class App extends Component {
   render() {
     return (
       // <View style={styles.container}>
-          <FlogtingButton/>
+          <Modal/>
       // </View>
     )
   }
