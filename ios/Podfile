@@ -81,6 +81,8 @@ target 'food_point' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
+
   target 'food_pointTests' do
     inherit! :complete
     # Pods for testing
