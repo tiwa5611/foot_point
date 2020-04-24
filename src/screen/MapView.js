@@ -90,7 +90,7 @@ export default class Mapiew extends Component {
           ref="map" 
           mapType="terrain" 
           style={styles.map} 
-          onPress={e => this.onMapPress(e)}
+          onLongPress={e => this.onMapPress(e)}
           initialRegion={{latitude:this.state.lat, 
                           longitude:this.state.lng,
                           latitudeDelta: 0.0922, 
