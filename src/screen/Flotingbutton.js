@@ -40,7 +40,7 @@ export default class Flotingbutton extends Component {
   render() {
     return (
         <View style={{flex:1, backgroundColor: '#f3f3f3'}}>
-            {/* <Map/> */}
+            <Map/>
             <ActionButton buttonColor="rgb(120, 224, 143)">
                 <ActionButton.Item buttonColor='rgb(255, 255, 255)' onPress={() => console.log("notes tapped!")}>
                     <Icon name="key" style={styles.actionButtonIcon} />
