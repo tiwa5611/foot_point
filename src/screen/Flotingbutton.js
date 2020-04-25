@@ -18,25 +18,6 @@ export default class Flotingbutton extends Component {
     this.setState({isModalVisible: !this.state.isModalVisible});
   };
 
-  
-  // Shar_location = () => {
-  //   return( 
-  //     <View style={{flex: 1, justifyContent:'center', alignItems:'center'}}>
-  //       { console.log(' xxxxxxxxx ' )}
-  //       <Modal isVisible={this.state.isModalVisible} animationOutTiming={1000} animationInTiming={1000}>
-  //         <View style={{ width:100, height:'80%', backgroundColor:'write'}}>
-  //           <TextInput
-  //             style={{height: 40, borderColor: 'gray', borderWidth: 1}}
-  //             onChangeText={(text) => this.setState({text})}
-  //             value={this.state.text}
-  //           />
-  //           <Button title="Hide modal" onPress={this.toggleModal} />
-  //         </View>
-  //       </Modal>
-  //     </View>
-  //   )
-  // }
-  
   render() {
     return (
         <View style={{flex:1, backgroundColor: '#f3f3f3'}}>

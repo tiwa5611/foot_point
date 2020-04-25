@@ -20,6 +20,7 @@ import FlogtingButton  from './src/screen/Flotingbutton'
 import Facebook from './src/screen/FaceBook'
 import Modal from './src/screen/Modals'
 import TestModal from './src/screen/Test'
+import Forminput from './src/screen/Forminput'
 
 export default class App extends Component {
   constructor(){
@@ -32,7 +33,7 @@ export default class App extends Component {
 
   render() {
     return (
-          <FlogtingButton/>
+          <Forminput/>
     )
   }
 }

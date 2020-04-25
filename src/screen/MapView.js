@@ -110,11 +110,6 @@ export default class Mapiew extends Component {
             </MapView.Marker>
           ))
         }
-          {/* <MapView.Marker coordinate={this.state.coor}>
-            <View style={styles.radius}>
-              <View style={styles.marker} />
-            </View>
-          </MapView.Marker> */}
         </MapView>
       </View>
     );
